@@ -5,8 +5,8 @@ Gem::Specification.new do |s|
   s.name        = "minitest-nc"
   s.version     = "0.0.2"
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Tom Bell"]
-  s.email       = ["tomb@tomb.io"]
+  s.authors     = ["Tom Bell", "Steven Talcott Smith"]
+  s.email       = ["tomb@tomb.io", "steve@aelogica.com"]
   s.homepage    = "https://github.com/tombell/minitest-nc"
   s.summary     = "MiniTest extension for Mountain Lion's Notification Center"
   s.description = s.summary
