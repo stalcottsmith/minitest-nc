@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "minitest-nc"
-  s.version     = "0.0.1"
+  s.version     = "0.0.2"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Tom Bell"]
   s.email       = ["tomb@tomb.io"]
@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "minitest-nc"
 
+  s.add_dependency "minitest", "~> 5.0.5"
   s.add_dependency "terminal-notifier", "~> 1.4.2"
 
   s.files         = `git ls-files`.split("\n")
